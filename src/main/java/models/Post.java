@@ -2,7 +2,7 @@ package models;
 
 import java.util.Date;
 
-public class Post {
+public class Post implements java.io.Serializable{
     private long id;
     private String text;
     private int likeCount;
