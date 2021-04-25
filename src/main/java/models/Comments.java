@@ -5,10 +5,18 @@ import java.util.Date;
 public class Comments {
     private long id;
     private String text;
-    private Date publishDate;
     private int likeCount;
     private int dislikeCount;
-    private long publisherId;
+    private String publisherUsername;
+    private long postID;
+
+    public long getPostID() {
+        return postID;
+    }
+
+    public void setPostID(long postID) {
+        this.postID = postID;
+    }
 
     public int getDislikeCount() {
         return dislikeCount;
@@ -18,12 +26,12 @@ public class Comments {
         this.dislikeCount = dislikeCount;
     }
 
-    public long getPublisherId() {
-        return publisherId;
+    public String getPublisherUsername() {
+        return publisherUsername;
     }
 
-    public void setPublisherId(long publisherId) {
-        this.publisherId = publisherId;
+    public void setPublisherUsername(String publisherUsername) {
+        this.publisherUsername = publisherUsername;
     }
 
     public int getLikeCount() {
@@ -50,11 +58,4 @@ public class Comments {
         this.text = text;
     }
 
-    public Date getPublishDate() {
-        return publishDate;
-    }
-
-    public void setPublishDate(Date publishDate) {
-        this.publishDate = publishDate;
-    }
 }

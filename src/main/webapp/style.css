@@ -1,0 +1,68 @@
+nav{
+    padding: 20px;
+    text-align: right;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: blueviolet;
+    border-left: 1px solid grey;
+}
+input{
+    margin: 5px 0;
+    padding: 5px 10px;
+    width: 90%;
+    border: #efe8e8 solid 1px;
+    border-radius: 5px;
+}
+
+.message{
+    background-color: #96f396;
+    margin: auto;
+    width: 400px;
+}
+
+div, table{
+    margin: 20px auto;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 30px 30px;
+}
+h2, h3, p{
+    text-align: center;
+}
+label{
+    margin-top: 5px;
+}
+
+button{
+    background: #2196f3;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 15px;
+    color: white;
+}
+p.error {
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: lightcoral;
+}
+
+.post{
+    margin: 20px auto;
+    width: 40%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 30px 30px;
+}
+
+.comment{
+    margin: 20px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px 10px;
+}

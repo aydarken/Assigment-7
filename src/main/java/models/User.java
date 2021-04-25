@@ -2,8 +2,17 @@ package models;
 
 public class User {
     private long id;
+    private String email;
     private String username;
     private String password;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public long getId() {
         return id;

@@ -5,17 +5,16 @@ import java.util.Date;
 public class Post {
     private long id;
     private String text;
-    private Date publishDate;
     private int likeCount;
     private int dislikeCount;
-    private long publisherId;
+    private String publisherUsername;
 
-    public long getPublisherId() {
-        return publisherId;
+    public String getPublisherUsername() {
+        return publisherUsername;
     }
 
-    public void setPublisherId(long publisherId) {
-        this.publisherId = publisherId;
+    public void setPublisherUsername(String publisherUsername) {
+        this.publisherUsername = publisherUsername;
     }
 
     public long getId() {
@@ -32,14 +31,6 @@ public class Post {
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public Date getPublishDate() {
-        return publishDate;
-    }
-
-    public void setPublishDate(Date publishDate) {
-        this.publishDate = publishDate;
     }
 
     public int getLikeCount() {
